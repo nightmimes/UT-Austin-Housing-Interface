@@ -17,7 +17,8 @@ function credits(){
   let survey = mouseX > surveyButtonX && mouseX < surveyButtonX + buttonWidth && mouseY > buttonY && mouseY < buttonY + buttonHeight;
   let data = mouseX > dataButtonX && mouseX < dataButtonX + buttonWidth && mouseY > buttonY && mouseY < buttonY + buttonHeight;
   let resources = mouseX > resourceButtonX && mouseX < resourceButtonX + buttonWidth && mouseY > buttonY && mouseY < buttonY + buttonHeight;
-if(survey || data || resources){
+if(title || data || resources || survey){
+ if(survey || data || resources){
   stroke(buttonsColor);
   strokeWeight(3);
 }  
@@ -27,7 +28,8 @@ if(title){
 }
 fill(bgColor);  
 textSize(25);
-text('By Kel S.', 552.5, 176);
+text('By Kel S.', 552.5, 176); 
+}
 }
 
 function titleButton(){ // creates the title 
