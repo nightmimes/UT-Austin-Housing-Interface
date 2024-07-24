@@ -122,6 +122,7 @@ let menu = mouseX>795 && mouseX<795+80 && mouseY>650 && mouseY<650+80;
     if(data){ // if data pressed on survey page
       surveyPressed = false;
       dataPressed = true;
+      playButton = true;
     }
   }  
 }
@@ -180,6 +181,7 @@ function helpOptions(){
      if(mouseX>(159.5-6) && mouseX<(159.5-6)+101 && mouseY>457-14 && mouseY<457+45-14){ // pressed 'data' button after 'help' selection
      if(helpSurvey == true){
       dataPressed = true;
+      playButton = true;
       mainMenu = false;
       }
      if(mainMenu == false){
@@ -386,6 +388,7 @@ let form = mouseX>470 && mouseX<470+260 && mouseY>440 && mouseY<440+290;
     if(qEnd == true){
       qEnd = false;
       dataPressed = true;
+      playButton = true;
     } 
   }
   if(resources){ // resources pressed
