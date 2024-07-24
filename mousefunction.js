@@ -157,6 +157,7 @@ function noOptions(){
        if(dHovered){ // pressed 'data' button after 'no' selection
        if(noSurvey == true){
         dataPressed = true;
+        playButton = true;
         mainMenu = false;
         }
        if(mainMenu == false){
