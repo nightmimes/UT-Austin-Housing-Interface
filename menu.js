@@ -283,9 +283,11 @@ function dataTitle(){
 stroke(outlineColor);
 strokeWeight(8);
 textSize(70);
-fill(219, 201, 162);
-text('DA', 435, 345);
-text('TA', 670, 345);
+fill(219, 201, 162); 
+text('D', 488, 345);
+text('A', 665, 345);
+text('T', 604, 345);
+text('A', 555, 345);
 }
 
 function dataWindows(){ // windows of the data tower
