@@ -1,2 +1,2 @@
 # UT-Austin-Housing-Interface
-Interactive interface to explore information and data about housing for students at UT Austin, including a data visualization, survey UI, and research documentation. Created as a Case Study project for AET 330T User Interfaces course taught by Professor Sydney Parks. 
+Simple widget interface with “bite-sized” information, data, and resources about student housing at UT Austin. Program draws an interactive survey, data visualization, and graphic with link to external resources and research. Demonstrated at UT Arts and Entertainment Technologies 2023 Showcase event. 
